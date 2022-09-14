@@ -1,147 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SEMMWA WILSON BAKSHAK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <base href="https://www.aptlearn.io/" target="_blank"> -->
     <link rel="icon" href="img/ic2.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style2.css" />
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a712f52c13.js" crossorigin="anonymous"></script>
+    <!-- <script src="main.js"></script> -->
 </head>
 <body>
-    <main>
-        <div class="bg-image"> 
-            <div class="bg-color">
-                <header>
-                    <nav>
-                        <div class="logo">
-                            <h1>&lt;/SEM&gt;</h1>
+    <div class="bg-img">
+        <div class="bg-color">
+            <header>
+                <nav class="navbar navbar-expand-md fixed-top bg">
+                    <div class="container-fluid text-white">
+                        <a class="navbar-brand" href="index.html"><h1 class="text-white">&lt;/SEM&gt;</h1></a>
+                        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- <i class="fas fa-hamburger fa-flip" style="--fa-animation-duration: 3s;"></i> -->
+                            <i class="fa-solid fa-burger text-white" id="burger"></i>
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto text-light">
+                        
+                            <li class="nav-item ">
+                            <a class="nav-link" href="#aboutme">About</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link " href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#contactme">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="https://medium.com/@wilsonsemmwa">Blog</a>
+                            </li>
+                        </ul>
                         </div>
-                        <div class="nav-links">
-                            <ul>
-                                <li><a href="" class="nav-item" >About</a></li>
-                                <li><a href="" class="nav-item" >Project</a></li>
-                                <li><a href="" class="nav-item" >Work</a></li>
-                                <li><a href="" class="nav-item" >Contact</a></li>
-                                <li><a href="" class="nav-item" >Blog</a></li>
-                            </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="hero">
+                <div class="row">
+                  <div class="col-md-4 text-white">
+                    <h4 >Hi there!! &#128075; I'm</h4>
+                    <h2>Semmwa</h2>
+                    <p id="h4">A software developer based in Jos, Nigeria. See more <a href="#aboutme"><i class="fa-solid fa-angles-right"></i></a></p>
+                    <div class="icons mt-4">
+                        <a href="https://github.com/wilsonsem"><i class="bi bi-github p-2 m-1"></i></a>
+                        <a href="https://www.facebook.com/semmwa.wilson"><i class="bi bi-facebook p-2 m-1"></i></a>
+                        <a href="https://mobile.twitter.com/sem_sem__"><i class="bi bi-twitter p-2 m-1"></i></a>
+                        <a href="https://www.instagram.com/semmwa_/"><i class="bi bi-instagram p-2 m-1"></i></a>
+                        <a href="https://medium.com/@wilsonsemmwa"><i class="bi bi-medium p-2 m-1"></i></a>
+                        <a href="https://www.linkedin.com/in/semmwa-wilson-bakshak-94336513a"><i class="bi bi-linkedin p-2 m-1" id="linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg pt-3 text-white" id="aboutme">
+        <div class="row p-2">
+            <div class="col-md-5 about">
+                    <h3 class="text-center d-lg-none fs-1">Who I am</h3>
+                    
+                    <img src="./img/sem2.jpg" class="img-fluid" alt="" id="aboutme_pic">
+            </div>
+            <div class="col-md-7 pb-4">
+                <h3 class="d-none d-lg-block p-2 fs-2">Who I am</h3>
+                <p class="pt-2">My name is <span>Semmwa Wilson Bakshak,</span> you can call me Sem. I am a software developer based in Jos, Nigeria. I love  mathematics I am passionate about using technology to solve problems. In the next few years I want to design and develop solutions that would make peoples experience easier and also come up with viable solutions in the health sector. I speak at tech events and I love volunteer for tech communities and non-profit organizations.</p>   
+                <p>I have a Bachelor of Technology in Computer Science from Abubakar Tafawa Balewa University Bauchi, Nigeria. I am currently an intern at Rocket Software Academy Jos, Nigeria.</p>
+                <p>My non-tech passion is fashion design and I am a creative when it comes to handcraft. So when I'm not on my PC you will find me crafting cozy clothing and acccesories with yarn and hook.</p>
+                <p> I am open for internship positions, speaking engagement and collaboration on any of the mentioned field.</p>
+                <a class="btn btn-light btn-sm fw-bold p-1" href="#" role="button">
+                    <span class="m-1 fs-5">MY CV<i class="bi bi-cloud-arrow-down-fill fs-5 m-1 mt-2"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+   <div class="container-fluid pb-3">
+       <div class="container">
+            <div class="d-flex justify-content-center m-3 fs-1 project button-group filter-button-group">
+                <button type="button" class="m-3 fw-bolder" data-filter=".project">PROJECTS</button>
+                <button type="button" class="m-3 fw-bolder" data-filter=".work">WORK</button>
+            </div>
+            <div class="row d-flex justify-content-around" id="portfolio-list">
+            <div class="col-md-4 project">
+                    <div class="card" >
+                        <img src="./img/bmi.png" class="card-img-top" alt="...">
+                        <!-- <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div> -->
+                    </div>
+            </div>
+            <div class="col-md-4 project">
+                    <div class="card" >
+                        <img src="./img/bmi.png" class="card-img-top" alt="...">
+                        <!-- <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div> -->
+                    </div>
+            </div>
+            <div class="col-md-4 work">
+                    <div class="card" >
+                        <img src="./img/netflix.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a clone of the netflix website built with HTML, CSS and Javascript. It was my first project ever.</p>
+                            <div class="text-center">
+                                <a href="https://netflixclonebysem.netlify.app/" class="btn btn-primary">Live Site</a>
+                                <a href="https://github.com/wilsonsem/NETFLIX_CLONE" class="btn btn-primary">Code </a>
+                            </div>
                         </div>
-                    </nav>
-                </header>
-                <div class="hero">
-                    <div class="hero-wrap">
-                        <div class="hero-text">
-                            <h4 >Hi there!! &#128075; I'M</h4>
-                            <h4 ></h4>
-                            <h2>Semmwa</h2>
-                            <p>I am a software developer.</p>
+                    </div>
+            </div>
+            
+            </div>
+       </div>
+   </div>
+    <div class="container-fluid bg pb-4" id="contactme">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-lg-6 pt-3 text-sm-center text-md-start">
+                    <h4 class="mt-2 mb-4 fs-2 ms-5">Reach me here</h4>
+                        <div class="d-flex m-2">
+                            <i class="bi bi-telephone-plus-fill m-3 fs-3"></i>
+                            <p class="mt-4 fs-4 telephone"><a href="tel: +2347057696948" class="text-decoration-none text-white">+2347057696948</a></p>
                         </div>
-                        <div class="read-more">
-                            <button id="btn-m"><a href="#aboutme" id="more">more about me</a></button>
+                        <div class="d-flex m-2 mail">
+                            <i class="bi bi-envelope-plus m-3 fs-3"></i>
+                            <p class="mt-4 fs-4"><a href="mailto: hell0@gmail.com" class="text-decoration-none text-white">wilsonsemmwa@gmail.com</a></p>   
                         </div>
-                        <div class="social-icons">
-                            <div class="icon-wrap">
-                                <div class="icons">
-                                    <a href="#" class="icon-item"><i class="bi bi-facebook"></i></a>
-                                    <a href="#" class="icon-item"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#" class="icon-item"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" class="icon-item"><i class="bi bi-twitter"></i></a>
-                                    <a href="#" class="icon-item"><i class="bi bi-github"></i></a>
-                                    <a href="#" class="icon-item"><i class="bi bi-medium"></i></a>
+                        <div class="d-flex m-2">
+                            <i class="bi bi-geo  m-3 fs-3"></i>
+                            <p class="mt-4 fs-4 pb-3">Namua, Abbatoir Road Jos, Nigeria</p>
+                        </div>
+                </div>
+                <div class="col-lg-6 pt-3 form-area">
+                    <h4 class="text-center mb-5 fs-2">Drop me a message</h4>
+                    <form action="">
+                            <div class="d-flex justify-content-between">
+                                <div class="form-group col-md-5 m-1">
+                                    <input type="text" class="form-control" placeholder="your name" >
+                                </div>
+                                <div class="form-group col-md-6 m-1">
+                                    <input type="email" class="form-control" placeholder="your email" >
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <div class="d-flex justify-content-between m-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Coffee Chat</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">collaboration</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">Hire Me</label>
+                                </div>
+                                </div>
+                                
+                            <div class="col-md-12 form-group mt-2">
+                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                            </div>
+                           <div class="text-center text-lg-end">
+                                <button type="button" class="btn btn-light mt-2"><a href="" class="text-decoration-none fs-6 text-dark fw-bold">SEND</a></button>
+                           </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <section class="aboutme">
-            <div class="about-wrap">
-                    <div class="about">
-                        <h3 id="h3-heading">Who I am</h3>
-                        <div class="about-img">
-                            <div>
-                                <img src="./img/sem2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="about-text">
-                            <h3 id="h3-heading2">Who I am</h3>
-                            <p>My name is <span>Semmwa Wilson Bakshak,</span> you can call me Sem. I am a software developer based in Jos, Nigeria. I love  mathematics I am passionate about using technology to solve problems. In the next few years I want to design and develop solutions that would make peoples experience easier and also solve problems in the health sector. I speak at tech events and I love volunteer for tech communities and non-profit organizations.</p>   
-                            <p>I have a Bachelor of Technology in Computer Science from Abubakar Tafawa Balewa University Bauchi, Nigeria. I am currently undergoing training at Rocket Software Academy Jos, Nigeria.</p>
-                            <p>My non-tech passion is fashion design and I am a creative when it comes to handcraft. So when I'm not on my PC you will find me crafting cozy clothing and acccesories with yarn and hook.</p>
-                            <p> I am open for internship positions, speaking engagement and collaboration on any of the mentioned field.</p>
-                            <button id="cv-btn">
-                                <a href="" class="cv-link">
-                                    <span>Download CV</span>
-                                    <span id="svg-cv"><svg class="d-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                                    </svg></span>
-                                </a>
-                            </button>
-                        </div>
-                       
-                    </div>
-                </div>
-        </section>
-        <section class="project">
-            <div class="project-wrap">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </section>
-        <section class="work">
-            <div class="work-wrap">
-                <div class="volunteer"></div>
-                <div class="Speaking"></div>
-            </div>
-        </section>
-        <div class="contact-section" id="contactme">
-            <div class="contact-wrap">
-                <!-- <h2 id="h2-c">Contact me</h2> -->
-                <div class="contact-body">
-                    <div class="address">
-                        <h3>Reach me here </h3>
-                        <div class="svg-c">
-                            <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                            </svg><p>+234-704-556-4986</p></div>
-                            <div class= "svg-c">
-                            <svg  class="svg-icons" id="email"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                            </svg><p>wilsonsemmwa@gmail.com</p>
-                        </div>
-                        <div class="svg-c">
-                            <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg><p>Abbatoir road Jos, Plateau </p>
-                        </div>
-                    </div>
-                    <div class="form">
-                        <h3>Drop me a message</h3>
-                        <form id="form">
-                            <div class="form-control">
-                                <input type="text" placeholder="Enter your name" id="" />
-                            </div>
-                            <div class="form-control">
-                                <input type="text" placeholder="Enter your email" id=""/>
-                            </div>
-                            <textarea name="message" id="" cols="70" rows="10" placeholder="Message"></textarea>
-                            <div>
-                                <button id="btn-send" type="submit" >Send</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+       
+    </div>
+    <footer>
+        <div class="text-center text-white fs-4 p-2 bg">
+            © 2022 Semmwa-Wilson @Rocket Software Ltd.
         </div>
-        <footer>
-
-        </footer>
-    </main>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
