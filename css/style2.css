@@ -68,6 +68,9 @@ header{
 .bg{
     background: rgb(17, 29, 29); 
 }
+.bg2{
+    background: rgb(218, 235, 178); 
+}
 #burger{
     font-size:2em;
 }
@@ -82,19 +85,11 @@ header{
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
 }
-
-
-
 /* about me */
 .about img{
-    /* width: 530px;
-    height: 550px; */
     border-radius: 50px;
 }
-/* contact me */
-/* #contactme p{
-    font-size: 2em;
-} */
+
 .telephone a:hover,
 .mail p:hover
 {
