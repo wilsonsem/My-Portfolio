@@ -149,7 +149,7 @@
                 </div>
                 <div class="col-lg-6 pt-3 form-area">
                     <h4 class="text-center mb-5 fs-2">Drop me a message</h4>
-                    <form action="post" name="contact" data-netlify="true">
+                    <form action="post" name="contact" data-netlify="true" data-netlify-recaptcha="true">
                             <div class="d-flex justify-content-between">
                                 <div class="form-group col-md-5 m-1">
                                     <input type="text" name="name" id="name" class="form-control" placeholder="your name" >
@@ -177,6 +177,7 @@
                             <div class="col-md-12 form-group mt-2">
                                 <textarea class="form-control" name="message" id="message" rows="3"></textarea>
                             </div>
+                            <div data-netlify-recaptcha="true"></div>
                            <div class="text-center text-lg-end">
                                 <button type="submit" class="btn btn-light mt-2 text-decoration-none fs-6 text-dark fw-bold">SEND</button>
                            </div>
