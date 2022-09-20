@@ -87,42 +87,43 @@
                 <!-- <button type="button" class="m-3 fw-bolder" data-filter=".work">WORK</button> -->
             </div>
             <div class="row d-flex justify-content-around">
-                <div class="col-md-4 project pt-2">
-                        <div class="card">
-                            <img src="./img/twitter-card.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text pt-2">This is a neumorphic design of twitter login with some a little animation designed with HTML and CSS only</p>
-                                <div class="text-center">
-                                    <a href="https://twitterlogincard.netlify.app/" class="btn btn-primary">Live Site</a>
-                                    <a href="https://github.com/wilsonsem/Twitter_Login" class="btn btn-primary">Code </a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-md-4 project pt-2">
-                        <div class="card" >
-                            <img src="./img/bmi.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This project calculats your body mass index. I built this with HTML CSS and Javascript. </p>
-                                <div class="text-center">
-                                    <a href="https://bmi-calculator-bysem.netlify.app/" class="btn btn-primary">Live Site</a>
-                                    <a href="https://github.com/wilsonsem/BMI" class="btn btn-primary">Code </a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
                 <div class="col-md-4 work pt-2">
-                        <div class="card" >
-                            <img src="./img/netflix.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">This is a clone of the netflix website built with HTML, CSS and Javascript. It was my first project ever.</p>
-                                <div class="text-center">
-                                    <a href="https://webclonebysem.netlify.app/" class="btn btn-primary">Live Site</a>
-                                    <a href="https://github.com/wilsonsem/NETFLIX_CLONE" class="btn btn-primary">Code </a>
-                                </div>
+                    <div class="card" >
+                        <img src="./img/netflix.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a clone of the netflix website built with HTML, CSS and Javascript. It was my first project ever.</p>
+                            <div class="text-center">
+                                <a href="https://webclonebysem.netlify.app/" class="btn btn-primary">Live Site</a>
+                                <a href="https://github.com/wilsonsem/NETFLIX_CLONE" class="btn btn-primary">Code </a>
                             </div>
                         </div>
+                    </div>
                 </div>
+                <div class="col-md-4 project pt-2">
+                    <div class="card">
+                        <img src="./img/twitter-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text pt-2">This is a neumorphic design of twitter login with some a little animation designed with HTML and CSS only</p>
+                            <div class="text-center">
+                                <a href="https://twitterlogincard.netlify.app/" class="btn btn-primary">Live Site</a>
+                                <a href="https://github.com/wilsonsem/Twitter_Login" class="btn btn-primary">Code </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project pt-2">
+                    <div class="card" >
+                        <img src="./img/bmi.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This project calculats your body mass index. I built this with HTML CSS and Javascript. </p>
+                            <div class="text-center">
+                                <a href="https://bmi-calculator-bysem.netlify.app/" class="btn btn-primary">Live Site</a>
+                                <a href="https://github.com/wilsonsem/BMI" class="btn btn-primary">Code </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <h5 class="text-end mt-2 fs-4 d-none d-lg-block"><a href="./project.html">see all</a></h5>
             <h5 class="text-end mt-4 fs-4 text-center d-lg-none"><a href="./project.html">see all</a></h5>
@@ -148,13 +149,13 @@
                 </div>
                 <div class="col-lg-6 pt-3 form-area">
                     <h4 class="text-center mb-5 fs-2">Drop me a message</h4>
-                    <form action="" name="contact" method="POST" data-netlify="true">
+                    <form action="post" name="contact" method="POST" data-netlify="true">
                             <div class="d-flex justify-content-between">
                                 <div class="form-group col-md-5 m-1">
-                                    <input type="text" class="form-control" placeholder="your name" >
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="your name" >
                                 </div>
                                 <div class="form-group col-md-6 m-1">
-                                    <input type="email" class="form-control" placeholder="your email" >
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="your email" >
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between m-2">
@@ -173,7 +174,7 @@
                                 </div>
                                 
                             <div class="col-md-12 form-group mt-2">
-                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                                <textarea class="form-control" name="message" id="exampleFormControlTextarea3" rows="3"></textarea>
                             </div>
                            <div class="text-center text-lg-end">
                                 <button type="button" class="btn btn-light mt-2"><a href="" class="text-decoration-none fs-6 text-dark fw-bold">SEND</a></button>
