@@ -96,6 +96,17 @@ header{
     border-bottom: 1px solid white;
 }
 
+/* project */
+#project{
+    min-height: 100vh;
+}
+.card{
+    height:300px; 
+}
+.card img{
+    height: 120px;
+    /* max-width: 250px; */
+}
 footer{
     border-top: 1px solid #ffffff;
 }
